@@ -1,0 +1,13 @@
+{
+  "name": "redocgen-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "dev": "pnpm run dev --recursive --parallel"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+    "openapi": "3.1",
+    "info": {
+      "title": "API Docs",
+      "contact": {
+        "name": "API Support",
+        "email": "support@api.io"
+      },
+      "version": "1.0.0"
+    }
+  }

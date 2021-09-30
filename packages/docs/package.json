@@ -1,0 +1,18 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "redocgen template.json",
+    "dev": "watch -p \"content/**/*.md\" -c \"npm run build\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "redocgen": "*",
+    "watch-cli": "^0.2.3"
+  }
+}
