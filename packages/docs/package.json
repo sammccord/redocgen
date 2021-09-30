@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "build": "redocgen template.json",
-    "dev": "watch -p \"content/**/*.md\" -c \"npm run build\""
+    "dev": "watch -p \"content/**/*.md\" -c \"npm run build\"",
+    "prepare": "npm run build"
   },
   "author": "",
   "license": "ISC",
